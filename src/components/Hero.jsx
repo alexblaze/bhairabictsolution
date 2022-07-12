@@ -10,7 +10,7 @@ import {
 
 const Hero = () => {
   return (
-    <div name='home' className="bg-hero bg-cover w-full h-screen flex flex-col justify-between ">
+    <div name='home' className="bg-hero bg-cover w-full flex flex-col justify-between ">
         <div className='grid md:grid-cols-2 max-w-[1240px] py-[10%] pl-[24px]'>
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <p className='text-2xl py-2'>We take your business to the next (higher) level.</p>
