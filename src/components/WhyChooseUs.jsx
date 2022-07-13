@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Services = () => {
+const WhyChooseUs = () => {
   return (
-    <div className='grid grid-cols-2 gap-4 px-[24px] py-24 bg-"#fafafa"'>
+    <div className='grid md:grid-cols-2 gap-4 px-[24px] py-24 bg-"#fafafa"'>
  <div>
     <h1 className='text-1xl text-blue-800'>
         Why Choose Us?
@@ -25,11 +25,11 @@ const Services = () => {
         </div>
         <div className="flex flex-col justify-center items-center pt-[40px]">
           <h3 className='text-4xl font-bold'>No.1</h3>
-          <p className='pt-3 w-48 text-center'>We are no.1 marketing agency across america</p>
+          <p className='pt-3 w-48 text-center'>We are no.1 marketing agency across Nepal</p>
         </div>
         <div className="flex flex-col justify-center items-center pt-[40px]">
           <h3 className='text-4xl font-bold'>5.0</h3>
-          <p className='pt-3 w-48 text-center'>We have rating og 5 star in top rating sites</p>
+          <p className='pt-3 w-48 text-center'>We have rating of 5 star</p>
         </div>
     </div>
 
@@ -38,4 +38,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default WhyChooseUs
