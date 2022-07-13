@@ -14,11 +14,12 @@ const Navbar = () => {
     <div className="w-screen h-[80] z-10 bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-6 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
-          <img className="w-14 p-1" src={Logo} alt="/" />
-          <ul className="hidden md:flex">
+          <img className="w-14 p-1" src={Logo} alt="logo" />
+          <ul className="hidden md:flex ml-6">
             <li>Home</li>
-            <li>About</li>
-            <li>Support</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Contact Us</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
@@ -41,8 +42,9 @@ const Navbar = () => {
 
       <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
         <li className="border-b-2 border-zinc-300 w-full">Home</li>
-        <li className="border-b-2 border-zinc-300 w-full">About</li>
-        <li className="border-b-2 border-zinc-300 w-full">Support</li>
+        <li className="border-b-2 border-zinc-300 w-full">About Us</li>
+        <li className="border-b-2 border-zinc-300 w-full">Services</li>
+        <li className="border-b-2 border-zinc-300 w-full">Contact Us</li>
         <div className="flex flex-col my-4">
         <button>
             <div className="flex justify-center">
