@@ -7,11 +7,9 @@ import {
   ServerIcon,
 } from '@heroicons/react/solid'
 
-
-
-const AboutUs = () => {
-  return (
-    <div name='aboutus' className="py-[64px] px-8">
+function Introduction(){
+  return(
+<div name='aboutus' className="py-[64px] px-8">
       <div className="grid grid-cols-2 gap-8 pt-[64px]">
         <div>
           <img className="w-full h-3/5 rounded-xl" src={img1} alt="" />
@@ -52,7 +50,11 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-  );
-};
 
-export default AboutUs;
+  );
+}
+
+
+
+
+export default Introduction;

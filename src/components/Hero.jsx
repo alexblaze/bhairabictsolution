@@ -6,6 +6,8 @@ import {
     ServerIcon,
 } from '@heroicons/react/solid'
 
+import Navbar from "./Navbar";
+
 
 
 const Hero = () => {
