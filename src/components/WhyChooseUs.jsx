@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Services = () => {
+const WhyChooseUs = () => {
   return (
     <React.Fragment>
-      <div className='grid grid-cols-2 gap-4 px-[24px] py-24 bg-"#fafafa"'>
+      <div className='grid md:grid-cols-2 gap-4 px-[24px] py-24 bg-"#fafafa"'>
         <div>
           <h1 className='text-1xl text-"#4c57e0"'>
             Why Choose Us?
@@ -46,16 +46,6 @@ const Services = () => {
           <p className='px-4 pb-5 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum totam est temporibus reiciendis nostrum. Porro vitae sequi aspernatur quasi.</p>
         </div>
         <div className=" bg-white shadow rounded-lg max-w-xs ">
-          <h1 className='text-2xl font-bold py-5'>Contact us</h1>
-          <p className='px-4 pb-5 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum totam est temporibus reiciendis nostrum. Porro vitae sequi aspernatur quasi.</p>
-        </div>
-      </div>
-      <div className="px-[24px] pb-24 bg-sky-200 text-center flex justify-around">
-        <div className=" bg-white shadow rounded-lg max-w-xs ">
-          <h1 className='text-2xl font-bold py-5'>Web Design</h1>
-          <p className='px-4 pb-5 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum totam est temporibus reiciendis nostrum. Porro vitae sequi aspernatur quasi.</p>
-        </div>
-        <div className=" bg-white shadow rounded-lg max-w-xs ">
           <h1 className='text-2xl font-bold py-5'>Design studio</h1>
           <p className='px-4 pb-5 text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum totam est temporibus reiciendis nostrum. Porro vitae sequi aspernatur quasi.</p>
         </div>
@@ -70,4 +60,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default WhyChooseUs
